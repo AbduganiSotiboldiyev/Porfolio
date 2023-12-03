@@ -14,6 +14,7 @@
     "@mui/icons-material": "^5.14.19",
     "@mui/material": "^5.14.19",
     "@netlify/plugin-nextjs": "^4.41.2",
+    "@rcaferati/wac": "^1.0.0",
     "date-fns": "^2.30.0",
     "graphql": "^16.8.1",
     "graphql-request": "^6.1.0",

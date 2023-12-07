@@ -3,7 +3,7 @@ import AwesomeSlider from "react-awesome-slider";
 import 'react-awesome-slider/dist/styles.css';
 
 import {Box,Typography,Button} from "@mui/material"
-import { ProjectPageProps } from './projectpage.interface';
+import { ProjectPageProps } from '../../interface/projectpage.interface';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 const Projects = ({project} : ProjectPageProps) => {

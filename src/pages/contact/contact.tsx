@@ -1,5 +1,5 @@
 import React from 'react'
-import { ContactPageProps } from './contactpage.interface'
+import { ContactPageProps } from '../../interface/contactpage.interface'
 import {Box,Typography,Link} from "@mui/material"
 import TelegramIcon from '@mui/icons-material/Telegram';
 import InstagramIcon from '@mui/icons-material/Instagram';

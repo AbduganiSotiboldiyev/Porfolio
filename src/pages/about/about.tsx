@@ -1,6 +1,6 @@
 import React from 'react'
 import {Box,Typography} from "@mui/material"
-import { AboutPageProps } from './aboutpage.interface'
+import { AboutPageProps } from '../../interface/aboutpage.interface'
 import Image from 'next/image'
 const About = ({aboutmes} : AboutPageProps) => {
   return (

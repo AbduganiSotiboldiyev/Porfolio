@@ -10,7 +10,7 @@ import { useRouter } from 'next/router'
  
 const DetailedProject = ({projects} : DetailedProjectPageProps) => {
   const router = useRouter()
-  console.log(router.query)
+  
   
   return (
     <SEO metaTitle={`${router.query.project} project`}>

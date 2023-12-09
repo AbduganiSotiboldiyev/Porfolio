@@ -14,7 +14,7 @@ const Projects = ({project} : ProjectProps) => {
                 <>
                 {project.map(item => (
                     <Box key={item.id} position={"relative"} className="project_img" mb={5} onClick = {() => router.push(`/portfolio/${item.project}`)}>
-                        <Image1  width={300} height={200} objectFit='cover' className='project_img' style={{borderRadius : "15px",cursor: "pointer" }} src={item.proImage.url} alt='project_img' />
+                        <Image1  width={300} height={200}   className='project_img' style={{borderRadius : "15px",cursor: "pointer" }} src={item.proImage.url} alt='project_img' />
                         <Box position={"absolute"} sx={{top: "150px", bottom: 0, left: 0, right: 0,backgroundColor: "#f8f8ff", opacity:"0.8", visibility:"hidden"}} className="project_img_layout">
                             <Typography variant="h5" color={"midnightblue"}>{item.proName.toUpperCase()}</Typography>
                             <Typography variant="h6" color={"midnightblue"}> {item.proDescription.slice(0 ,60)}...</Typography>

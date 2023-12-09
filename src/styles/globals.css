@@ -9,9 +9,7 @@
     top: 70px;
     transition: all 0.5s ease;
 }
-.project_container{
-    background-color: #2f2f2f !important;
-}
+
 .project_slider{
     height:100vh;
     
